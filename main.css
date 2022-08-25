@@ -1,0 +1,39 @@
+body, div {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+body {
+    background-color: #eeedeb; 
+}
+
+#mainAlign {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.mainCon {
+    height: 500px;
+    display: flex;
+    width: 500px;
+    flex-flow: row wrap;
+    margin: 0, auto;
+    border-spacing: 10px;
+}
+
+/* Box Default Style */
+.boxDefault {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: #3A3B3C;
+    cursor: pointer;
+}
+
+/* Box Clicked on */
+.boxLight {
+    background-color: #bdbfc0;
+}
